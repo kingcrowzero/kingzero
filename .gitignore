@@ -1,220 +1,104 @@
-## Core latex/pdflatex auxiliary files:
-*.aux
-*.lof
+
+# ------------------------------------------------------------------------------
+# Common Node files and folders
+#  https://github.com/github/gitignore/blob/master/Node.gitignore
+# ------------------------------------------------------------------------------
+
+lib-cov
+*.seed
 *.log
-*.lot
-*.fls
+*.csv
+*.dat
 *.out
-*.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
+*.pid
+*.gz
 
-## Intermediate documents:
-*.dvi
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
+pids
+logs
+results
 
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
+node_modules
+npm-debug.log
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
-*.bcf
-*.blg
-*-blx.aux
-*-blx.bib
-*.run.xml
 
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
+# ------------------------------------------------------------------------------
+# Nodemon
+# ------------------------------------------------------------------------------
 
-## Auxiliary and intermediate files from other packages:
-# algorithms
-*.alg
-*.loa
+.monitor
 
-# achemso
-acs-*.bib
 
-# amsthm
-*.thm
+# ------------------------------------------------------------------------------
+# JSHint
+# ------------------------------------------------------------------------------
 
-# beamer
-*.nav
-*.pre
-*.snm
-*.vrb
+jshint
 
-# changes
-*.soc
 
-# cprotect
-*.cpt
+# ------------------------------------------------------------------------------
+# Numerous always-ignore extensions
+# ------------------------------------------------------------------------------
 
-# elsarticle (documentclass of Elsevier journals)
-*.spl
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
 
-# endnotes
-*.ent
 
-# fixme
-*.lox
+# ------------------------------------------------------------------------------
+# Files from other repository control systems
+# ------------------------------------------------------------------------------
 
-# feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
+.hg
+.svn
+.CVS
 
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
 
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
+# ------------------------------------------------------------------------------
+# Your ideas
+# ------------------------------------------------------------------------------
 
-# gnuplottex
-*-gnuplottex-*
+.idea
 
-# gregoriotex
-*.gaux
-*.gtex
 
-# hyperref
-*.brf
+# ------------------------------------------------------------------------------
+# OS X and other IDE's folder attributes
+# ------------------------------------------------------------------------------
 
-# knitr
-*-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
-*-tikzDictionary
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
 
-# listings
-*.lol
 
-# makeidx
-*.idx
-*.ilg
-*.ind
-*.ist
+# ------------------------------------------------------------------------------
+# Dreamweaver added files
+# ------------------------------------------------------------------------------
 
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
+_notes
+dwsync.xml
 
-# minted
-_minted*
-*.pyg
 
-# morewrites
-*.mw
+# ------------------------------------------------------------------------------
+# Komodo
+# ------------------------------------------------------------------------------
 
-# nomencl
-*.nlo
+*.komodoproject
+.komodotools
 
-# pax
-*.pax
 
-# pdfpcnotes
-*.pdfpc
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# todonotes
-*.tdo
-
-# easy-todo
-*.lod
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices
-*.xyc
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
-
-# Kile
-*.backup
-
-# KBibTeX
-*~[0-9]*
-
-# auto folder when using emacs and auctex
-/auto/*
-
-# expex forward references with \gathertags
-*-tags.tex
+# ------------------------------------------------------------------------------
+# Add your custom excludes below
+# ------------------------------------------------------------------------------
+bower_components/
